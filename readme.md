@@ -1,6 +1,20 @@
 Doggo
 ====
-A script engine for runtime inspection & modification for fast dev-test iterations.
+A script engine for runtime inspection & modification for fast dev-test iteration.
+
+Feature
+----
+* Scripting with C# syntax.
+* Zero codings for integrating doggo!
+* Works with any platform.
+
+Overview
+----
+Below code executes a `Jump` method from `Player` instance.<br>
+`$(Player)` is a special syntax which is exactly same as `FindObjectOfType<Player>()`. We'll explain more about it later.
+```cs
+$(Player).Jump();
+```
 
 Sugar for doggo!
 ----
