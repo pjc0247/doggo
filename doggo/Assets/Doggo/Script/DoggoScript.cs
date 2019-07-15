@@ -8,8 +8,8 @@ public class DoggoScript : MonoBehaviour
 {
     public static void Run(string script)
     {
-        var r = CScript.CreateRunner("");
-        var ret = r.Eval(script);
+        var ret = CScript.RunSimple(script);
+        //var ret = r.Eval(script);
 
         Debug.Log(ret.ToString());
     }
