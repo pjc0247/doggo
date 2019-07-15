@@ -14,4 +14,12 @@ public class D : MonoBehaviour
             return default(T);
         return t;
     }
+    public static T[] GetMultiple<T>()
+        where T : UnityEngine.Object
+    {
+        var t = GameObject.FindObjectsOfType<T>();
+        if (t == null)
+            return new T[] { };
+        return t;
+    }
 }
