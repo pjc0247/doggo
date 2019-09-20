@@ -19,6 +19,6 @@ public class Player : MonoBehaviour
     }
     void Start()
     {
-        DoggoScript.Run("$(Player).hp = 20;");
+        DoggoScript.Run("#(Player).hp;");
     }
 }

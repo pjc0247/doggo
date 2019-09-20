@@ -14,4 +14,16 @@ public class DoggoConsole : MonoBehaviour
 
         DoggoScript.Run(scriptInput.text);
     }
+
+    private string src = "";
+    void OnGUI()
+    {
+        GUILayout.BeginVertical();
+        src = GUILayout.TextArea(src);
+        if (GUILayout.Button("Run"))
+        {
+            DoggoScript.Run(src);
+        }
+        GUILayout.EndVertical();
+    }
 }

@@ -13,6 +13,8 @@ public class DoggoScript : MonoBehaviour
 
         Debug.Log(script);
 
+        Debug.Log(D.GetSingle<Player>().hp);
+
         var r = CScript.CreateRunner();
         var ret = r.Eval(script);
 
