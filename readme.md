@@ -2,6 +2,24 @@ Doggo
 ====
 A script engine for runtime inspection & modification for fast dev-test iteration.
 
+```
+Doggo is abandoned.
+
+SOJU also includes runtime REPL and it replaces doggo.
+https://github.com/pjc0247/get_soju#repl
+```
+```
+Doggo
+* Fast (Almost zero cost to execute small codeset)
+* Runs everywhere
+* Unstable (Uses SlowSharp as a backend which may not compatible with advanced syntaxes)
+
+SOJU REPL
+* Slow (Requires full recompilation to execute a single line)
+* Only supports Win32/Android
+* Stable (Uses same backend as Unity.)
+```
+
 Feature
 ----
 * Scripting with C# syntax.
