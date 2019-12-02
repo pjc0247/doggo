@@ -1,6 +1,6 @@
 Doggo
 ====
-A script engine for runtime inspection & modification for fast dev-test iteration.
+A script engine for runtime inspection & modification. It gives you great boost for fast dev-test iteration.
 
 ```
 Doggo is abandoned.
